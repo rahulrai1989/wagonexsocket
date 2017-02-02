@@ -31,5 +31,5 @@
     "express",
     "socket.io",
     "heroku"
-  ],
+  ]
 }
