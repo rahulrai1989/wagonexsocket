@@ -1,0 +1,26 @@
+{
+  "name": "wagonexsocket",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {
+    "express": "~4.14.0",
+    "socket.io": "~1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulrai1989/wagonexsocket.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rahulrai1989/wagonexsocket/issues"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
