@@ -1,0 +1,11 @@
+{
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "node",
+    "express",
+    "socket"
+  ],
+  "website": "http://wagonexsocket.herokuapp.com/",
+  "repository": "https://github.com/rahulrai1989/wagonexsocket.git",
+}

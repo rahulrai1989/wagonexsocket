@@ -22,5 +22,14 @@
   },
   "dependencies": {
     "fs": "0.0.1-security"
-  }
+  },
+  "engines":{
+    "node": "v0.10.25"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "heroku"
+  ],
 }
