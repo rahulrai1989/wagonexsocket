@@ -1,0 +1,13 @@
+{
+  "name": "wagonex",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "3.0.0rc3",
+    "socket.io": "^1.7.2"
+  }
+}
