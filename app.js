@@ -76,6 +76,14 @@ io.on('connection', function (socket) {
       }
     }   
   });
+
+    socket.on('typing', function(data) {
+      if (data) {
+          $('.typing').html(data);
+      } else {
+          $('.typing').html("");
+      }
+    });
 });
 
 //End Socket.IO area
