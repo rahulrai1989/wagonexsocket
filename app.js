@@ -77,12 +77,8 @@ io.on('connection', function (socket) {
     }   
   });
 
-    socket.on('typing', function(data) {
-      if (data) {
-          $('.typing').html(data);
-      } else {
-          $('.typing').html("");
-      }
+   socket.on('typing', function (data) {
+      socket.broadcast.emit('typing', data);
     });
 });
 
